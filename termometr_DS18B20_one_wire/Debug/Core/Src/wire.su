@@ -1,0 +1,9 @@
+../Core/Src/wire.c:5:19:wire_init	8	static
+../Core/Src/wire.c:10:6:delay_us	16	static
+../Core/Src/wire.c:19:19:wire_reset	16	static,ignoring_inline_asm
+../Core/Src/wire.c:45:12:read_bit	16	static,ignoring_inline_asm
+../Core/Src/wire.c:61:9:wire_read	16	static
+../Core/Src/wire.c:78:13:write_bit	16	static,ignoring_inline_asm
+../Core/Src/wire.c:100:6:wire_write	24	static
+../Core/Src/wire.c:110:16:byte_crc	24	static
+../Core/Src/wire.c:126:9:wire_crc	24	static
