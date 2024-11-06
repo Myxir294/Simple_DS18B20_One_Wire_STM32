@@ -8,5 +8,6 @@ The code is a part of my STM32 training with an online course from polish websit
 There are two versions that communicate via 1-Wire differently - one uses bit-banging, the other uses UART (more efficient way, but needs additional peripheral that is free).
 
 The project uses only the UART pins to communicate with PC and just one pin to talk with temperature sensor (excluding power and GND).
+You can also omit VCC and power with just a signal line, but this project was tested only for "VCC, GND, SIG" version.
 
 The library is in files ds18b20.h/.c and wire.h/.c. (note that the two different versions have the same filenames but are in separate example projects).
