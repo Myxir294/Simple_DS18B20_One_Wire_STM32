@@ -10,4 +10,6 @@ There are two versions that communicate via 1-Wire differently - one uses bit-ba
 The project uses only the UART pins to communicate with PC and just one pin to talk with temperature sensor (excluding power and GND).
 You can also omit VCC and power with just a signal line, but this project was tested only for "VCC, GND, SIG" version.
 
+![sensor](https://github.com/user-attachments/assets/d90b0126-5c40-4fc2-9b9d-61d09cf96840)
+
 The library is in files ds18b20.h/.c and wire.h/.c. (note that the two different versions have the same filenames but are in separate example projects).
