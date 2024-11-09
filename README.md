@@ -4,7 +4,7 @@ The programs allow to operate DS18B20 1-Wire temperature sensor via Nucleo L476R
 
 The code is a part of my STM32 training with an online course from polish website Forbot.pl, but I find it nice so I decided to share it. It's mainly focused on being easy to understand and as simple as possible.  
 
-There are two versions that communicate via 1-Wire differently - one uses bit-banging, the other uses UART (more efficient way, but needs additional peripheral that is free).
+There are two versions that communicate via 1-Wire differently - one uses bit-banging, the other uses UART (more efficient way, but needs additional dedicated peripheral).
 
 The project uses only the UART pins to communicate with PC and just one pin to talk with temperature sensor (excluding power and GND).
 You can also omit VCC and power with just a signal line, but this project was tested only for "VCC, GND, SIG" version.
